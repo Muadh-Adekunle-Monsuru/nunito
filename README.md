@@ -1,30 +1,55 @@
-# React + TypeScript + Vite
+---
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# React Rive Animation Project
 
-Currently, two official plugins are available:
+This is a simple React project that incorporates animations using Rive. The animation was inspired by a UI design concept found on [Dribbble](https://dribbble.com/shots/16532682-Nunito-Hero-header-v-2).
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
 
-## Expanding the ESLint configuration
+- **React Integration:** Built with React for component-based UI development.
+- **Rive Animations:** Smooth, high-quality animations created and controlled using Rive.
+- **Responsive Design:** The layout is designed to be responsive and adaptable to different screen sizes.
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+## Getting Started
 
-- Configure the top-level `parserOptions` property like this:
+### Prerequisites
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json', './tsconfig.app.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+- Node.js and npm installed on your local machine.
+- Basic knowledge of React and Rive animations.
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+### Installation
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/yourusername/react-rive-animation.git
+   cd react-rive-animation
+   ```
+
+2. Install dependencies:
+   ```bash
+   npm install
+   ```
+
+3. Start the development server:
+   ```bash
+   npm start
+   ```
+
+4. Open your browser and navigate to `http://localhost:3000` to see the animation in action.
+
+## Usage
+
+- The project comes with a sample Rive animation already integrated.
+- You can replace or modify the Rive file in the `/src/assets` folder to use your own animations.
+
+## Resources
+
+- **Rive Documentation:** [https://rive.app/docs/getting-started/](https://rive.app/docs/getting-started/)
+- **React Documentation:** [https://reactjs.org/docs/getting-started.html](https://reactjs.org/docs/getting-started.html)
+- **Inspiration:** [Nunito Hero Header v.2 by Filip Justić](https://dribbble.com/shots/16532682-Nunito-Hero-header-v-2)
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+---
